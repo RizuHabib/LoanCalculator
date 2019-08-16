@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Loan Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="upper">
+            <h2 class="heading">Loan Calculator</h2>
+            <div class="loanAmount">
+                <span>$</span>
+                <input type="number" placeholder="Loan Amount">
+            </div>
+            <div class="Interest">
+                <span>%</span>
+                <input type="number" placeholder="Interest">
+            </div>
+            <div class="YearsToRepay">
+                <input type="number" placeholder="Years To Repay">
+            </div>
+            <button class="button">Calcuate</button>
+        </div>
+        <div class="loading">
+            <img src="img/loading.gif" alt="">
+        </div>
+        <div class="Results">
+            <h3>Results</h3>
+            <div class="MonthlyPayment">
+                <span>Monthly Payment</span>
+                <input type="number" disabled>
+            </div>
+            <div class="TotalPayment">
+                <span>Total Payment</span>
+                <input type="number" disabled>
+            </div>
+            <div class="TotalInterest">
+                <span>Total Interest</span>
+                <input type="number" disabled>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>
